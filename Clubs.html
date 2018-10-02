@@ -52,7 +52,15 @@
         container: "viewDiv",
         map: map,
         center: [-6, 55],
-        scale: 500000
+        scale: 500000,
+		popup:{
+			dockEnabled:true,
+			dockOptions:{
+				buttonEnabled:true,
+				breakpoint:false
+
+			}
+		}
       });
 
       view.when().then(function() {
